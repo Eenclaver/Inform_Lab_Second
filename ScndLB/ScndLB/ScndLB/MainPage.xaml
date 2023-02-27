@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScndLB.MainPage"
+             BackgroundColor="White"
+             Title="Sorts">
+
+    <StackLayout>
+        <Label Text="Программа служит для проведения тестирования методов сортировки" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Выберите что хотите сделать" FontSize="16" Padding="30,0,30,0"/>
+        <Button Text="Тестирование" Clicked="tstBtnClick"/>
+        <Button Text="Исследование" Clicked="researchBtnClick"/>
+    </StackLayout>
+
+</ContentPage>

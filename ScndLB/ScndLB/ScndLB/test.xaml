@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScndLB.test">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Введите массив элемнтов через пробел"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="Arr"/>
+            <Label Text="Здесь будет отсортированный массив"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   x:Name="Inf"/>
+            <Label Text="Выберите тип сортировки:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Пузырьком" Clicked="button1_Click"/>
+            <Button Text="Отбор" Clicked="ChoiceButton_Click"/>
+            <Button Text="Вставки" Clicked="InsertionButton_Click"/>
+            <Button Text="Шелл" Clicked="button1_Click"/>
+            <Button Text="Быстрая" Clicked="button1_Click"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

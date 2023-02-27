@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScndLB.Research">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Выберите на каком массиве проводить исследование:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Отсортированный массив" Clicked="SwitchFirst"/>
+            <Button Text="Частично отсортированный массив" Clicked="SwitchScnd"/>
+            <Button Text="Хаотичный массив" Clicked="SwitchThrd"/>
+            <Button Text="Частично хаотичный массив" Clicked="SwitchFourth"/>
+            <Label Text="Введите количество чисел"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="First"
+                   IsVisible="False"/>
+            <Entry x:Name="Diap" IsVisible="False"/>
+            <Label Text="Введите количество чисел"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="Second"
+                   IsVisible="False"/>
+            <Entry x:Name="NumNum" IsVisible="False"/>
+            <Label Text="Введите количество не отсортированных чисел"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="Third"
+                   IsVisible="False"/>
+            <Entry x:Name="NumNotSorted" IsVisible="False"/>
+            <Label Text="Введите ещё один диапазон "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="Fourth"
+                   IsVisible="False"/>
+                <Entry x:Name="AnotherDiap" IsVisible="False"/>
+            <Button Text="Провести исследование" Clicked="StartResearch"/>
+            <Label IsVisible="false" x:Name="Result"/>
+            <Label IsVisible="false" x:Name="Name_Sort"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

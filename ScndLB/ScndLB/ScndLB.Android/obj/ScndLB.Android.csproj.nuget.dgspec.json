@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj": {}
+    "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj": {}
   },
   "projects": {
-    "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj": {
+    "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
+        "projectUniqueName": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
         "projectName": "ScndLB.Android",
-        "projectPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
+        "projectPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
         "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-        "outputPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\obj\\",
+        "outputPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
-                "projectPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj"
+              "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
+                "projectPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
+    "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj",
+        "projectUniqueName": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj",
         "projectName": "ScndLB",
-        "projectPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj",
+        "projectPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj",
         "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-        "outputPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\obj\\",
+        "outputPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NKVFzXj9OXRPCbFhBjg5bbExr3/ZP/RJX12z4QmnMK0fyE41jl8JMn11sliSNofqrfxfp4YXw9MI/uGUHC+Thw==",
+  "dgSpecHash": "BqGbWT50jn1eaZ3iwuTCpEILIGwgnOWjezRUI30Bd4rCJ/w1JFiCiQKhA7uDTgLr2Wnrt1T/lfEaU3UiDFqbhQ==",
   "success": true,
-  "projectFilePath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj",
+  "projectFilePath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrey\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Andrey\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

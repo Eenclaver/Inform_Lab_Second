@@ -17,7 +17,7 @@
                    x:Name="First"
                    IsVisible="False"/>
             <Entry x:Name="Diap" IsVisible="False"/>
-            <Label Text="Введите количество чисел"
+            <Label Text="Введите диапазон чисел"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
                    x:Name="Second"
@@ -36,7 +36,6 @@
                    IsVisible="False"/>
                 <Entry x:Name="AnotherDiap" IsVisible="False"/>
             <Button Text="Провести исследование" Clicked="StartResearch"/>
-            <Label IsVisible="false" x:Name="Result"/>
             <Label IsVisible="false" x:Name="Name_Sort"/>
         </StackLayout>
     </ContentPage.Content>

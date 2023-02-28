@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bvFirnE6+8icQBo0Xk/yEA6daPhl8IaadjRi4K9XMBGeSFhUac9XEwe79w9aT4zSWgeA0Xzw2lh43qqbHzwT4g==",
+  "dgSpecHash": "LLDxuWRsaT6Qz7N0R9ipL2sZzitJw5jNFm4swGmY77sbD6urNdOKMjbVhpmq3DHfSyNVjCneoTbYzWglOibB6Q==",
   "success": true,
-  "projectFilePath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.iOS\\ScndLB.iOS.csproj",
+  "projectFilePath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.iOS\\ScndLB.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrey\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Andrey\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

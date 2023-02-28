@@ -18,8 +18,8 @@
             <Button Text="Пузырьком" Clicked="button1_Click"/>
             <Button Text="Отбор" Clicked="ChoiceButton_Click"/>
             <Button Text="Вставки" Clicked="InsertionButton_Click"/>
-            <Button Text="Шелл" Clicked="button1_Click"/>
-            <Button Text="Быстрая" Clicked="button1_Click"/>
+            <Button Text="Шелл" Clicked="ShellButton_Click"/>
+            <Button Text="Быстрая" Clicked="QuickButton_Click"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

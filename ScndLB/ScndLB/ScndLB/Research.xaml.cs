@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,6 +13,10 @@ namespace ScndLB
     public partial class Research : ContentPage
     {
         int mode;
+        int comparsions;
+        int permutations;
+        int min_comparsions = 1000;
+        int min_permutations=1000;
 
         System.TimeSpan time;
         public Research()
@@ -108,8 +111,6 @@ namespace ScndLB
                         array.Append(Convert.ToString(i));
                     }
                     Name_Sort.Text = research(Convert.ToString(array));
-                    Result.Text = Convert.ToString(array);
-                    Result.IsVisible = true;
                     Name_Sort.IsVisible = true;
                     break;
                 case 2:
@@ -123,8 +124,6 @@ namespace ScndLB
                     }
                     Name_Sort.Text = research(Convert.ToString(array));
                     array = button1_Click(Convert.ToString(array));
-                    Result.Text = Convert.ToString(array);
-                    Result.IsVisible= true;
                     Name_Sort.IsVisible= true;
                     break;
                 case 3:
@@ -164,8 +163,6 @@ namespace ScndLB
                     {
                         array = QuickButton_Click(Convert.ToString(array));
                     }
-                    Result.Text = Convert.ToString(array);
-                    Result.IsVisible = true;
                     Name_Sort.IsVisible = true;
                     break;
                 case 4:
@@ -205,8 +202,6 @@ namespace ScndLB
                     {
                         array = QuickButton_Click(Convert.ToString(array));
                     }
-                    Result.Text = Convert.ToString(array);
-                    Result.IsVisible = true;
                     Name_Sort.IsVisible = true;
                     break;
                 default:
@@ -220,6 +215,8 @@ namespace ScndLB
 
         private StringBuilder button1_Click(string txt)
         {
+            comparsions = 0;
+            permutations= 0;
             StringBuilder buble = new StringBuilder(txt);
             bool notOver = true;
             Stopwatch stopWatch = new Stopwatch();
@@ -229,8 +226,10 @@ namespace ScndLB
                 notOver = false;
                 for (int i = 0; i < buble.Length - 1; i++)
                 {
+                    comparsions += 1;
                     if (Convert.ToInt32(buble[i]) > Convert.ToInt32(buble[i + 1]))
                     {
+                        permutations += 1;
                         notOver = true;
                         Swap(ref buble, i, i + 1);
                     }
@@ -238,6 +237,14 @@ namespace ScndLB
             }
             time = stopWatch.Elapsed;
             stopWatch.Stop();
+            if (min_comparsions > comparsions)
+            {
+                min_comparsions = comparsions;
+            }
+            if (min_permutations > permutations)
+            {
+                min_permutations = permutations;
+            }
             return buble;
         }
 
@@ -276,6 +283,14 @@ namespace ScndLB
             }
             time = stopWatch.Elapsed;
             stopWatch.Stop();
+            if (min_comparsions > comparsions)
+            {
+                min_comparsions = comparsions;
+            }
+            if (min_permutations > permutations)
+            {
+                min_permutations = permutations;
+            }
             return Choice;
         }
 
@@ -301,6 +316,14 @@ namespace ScndLB
             }
             time = stopWatch.Elapsed;
             stopWatch.Stop();
+            if (min_comparsions > comparsions)
+            {
+                min_comparsions = comparsions;
+            }
+            if (min_permutations > permutations)
+            {
+                min_permutations = permutations;
+            }
             return Insertion;
         }
 
@@ -334,6 +357,14 @@ namespace ScndLB
             }
             time = stopWatch.Elapsed;
             stopWatch.Stop();
+            if (min_comparsions > comparsions)
+            {
+                min_comparsions = comparsions;
+            }
+            if (min_permutations > permutations)
+            {
+                min_permutations = permutations;
+            }
             return Shell;
         }
 
@@ -391,6 +422,14 @@ namespace ScndLB
             Quick = QuickRowSort(Quick, 0, Quick.Length - 1, &comparsions, &permutations);
             time = stopWatch.Elapsed;
             stopWatch.Stop();
+            if (min_comparsions > comparsions)
+            {
+                min_comparsions = comparsions;
+            }
+            if (min_permutations > permutations)
+            {
+                min_permutations = permutations;
+            }
             return Quick;
         }
 
@@ -415,23 +454,23 @@ namespace ScndLB
             time5 = time;
             if ((time1 < time2) || (time1 < time3) || (time1 < time4) || (time1 < time5))
             {
-                sortStr = "Пузырек";
+                sortStr = "Лучшая сортировка - Пузырек. Время сортировки - " + time1 + " Сравнения - " + min_comparsions + " Перестановки - " + min_permutations;
             }
             if ((time2 < time1) || (time2 < time3) || (time2 < time4) || (time2 < time5))
             {
-                sortStr = "Выбор";
+                sortStr = "Лучшая сортировка - Выбор. Время сортировки - " + time2 + " Сравнения - " + min_comparsions + " Перестановки - " + min_permutations;
             }
             if ((time3 < time1) || (time3 < time2) || (time3 < time4) || (time3 < time5))
             {
-                sortStr = "Вставка";
+                sortStr = "Лучшая сортировка - Вставка. Время сортировки - " + time3 + " Сравнения - " + min_comparsions + " Перестановки - " + min_permutations;
             }
             if ((time4 < time1) || (time4 < time2) || (time4 < time3) || (time4 < time5))
             {
-                sortStr = "Шелл";
+                sortStr = "Лучшая сортировка - Шелл. Время сортировки - " + time4 + " Сравнения - " + min_comparsions + " Перестановки - " + min_permutations;
             }
             if ((time5 < time1) || (time5 < time2) || (time5 < time3) || (time5 < time4))
             {
-                sortStr = "Быстрая";
+                sortStr = "Лучшая сортировка - Быстрая. Время сортировки - " + time5 + " Сравнения - " + min_comparsions + " Перестановки - " + min_permutations;
             }
             return sortStr;
         }

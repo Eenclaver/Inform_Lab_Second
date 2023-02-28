@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xqytPyp3pY29heCbEc2chsWk8L2Omhr9e5JjIunjKeGm7qwU9Av6pe9Q2CAVvVNbSugtR8IXRewJ6IbuMk7Pdg==",
+  "dgSpecHash": "RKrLxjJnUVpvNkDM7zC2EjwRTLKcs2p1qNQNErkUn2jUQGmG3R406xcPCnA7cTKk4CXa0VAXF2bEkTfNT3fFCQ==",
   "success": true,
-  "projectFilePath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
+  "projectFilePath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrey\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Andrey\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

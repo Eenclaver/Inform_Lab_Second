@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
+      "projectUniqueName": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
       "projectName": "ScndLB.Android",
-      "projectPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
+      "projectPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\ScndLB.Android.csproj",
       "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-      "outputPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.Android\\obj\\",
+      "outputPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
-              "projectPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj"
+            "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
+              "projectPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj"
             }
           }
         }
@@ -3452,14 +3452,6 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

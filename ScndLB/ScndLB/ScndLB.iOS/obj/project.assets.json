@@ -1068,11 +1068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.iOS\\ScndLB.iOS.csproj",
+      "projectUniqueName": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.iOS\\ScndLB.iOS.csproj",
       "projectName": "ScndLB.iOS",
-      "projectPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.iOS\\ScndLB.iOS.csproj",
+      "projectPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.iOS\\ScndLB.iOS.csproj",
       "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-      "outputPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB.iOS\\obj\\",
+      "outputPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1093,8 +1093,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
-              "projectPath": "D:\\VS_Projects\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj"
+            "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj": {
+              "projectPath": "D:\\Git\\Inform_Lab_Second\\ScndLB\\ScndLB\\ScndLB\\ScndLB.csproj"
             }
           }
         }
